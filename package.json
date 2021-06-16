@@ -1,0 +1,44 @@
+{
+  "name": "node-js-boilerplate-architecture",
+  "version": "1.0.0",
+  "description": "A starter boilerplate for Node js applications with tests",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "Starter",
+    "architecture",
+    "node",
+    "boilerplate",
+    "js"
+  ],
+  "author": "Joswal",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.28.2",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.10.6",
+    "nodemailer": "^6.4.2",
+    "typedi": "^0.8.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
