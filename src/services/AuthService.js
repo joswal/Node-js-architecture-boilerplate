@@ -1,6 +1,6 @@
 //node modules imports
 const jwt = require('jsonwebtoken');
-const uuidv1 = require('uuid/v1');
+const uuidv1 = require('uuid');
 const argon2 = require('argon2');
 const { randomBytes } = require('crypto');
 
